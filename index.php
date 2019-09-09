@@ -12,7 +12,7 @@
 	$showParent = false; // Display a (parent directory) link
 	$showDirectories = true;
 	$showDirectoriesFirst = true; // Lists directories first when sorting by name
-	$showHiddenFiles = false; // Display files starting with "." too
+	$showHiddenFiles = false; // Display files starting with "."
 	$showIcons = true;
 	$dateFormat = 'd/m/y';
 	$sizeDecimals = 1;
@@ -181,7 +181,6 @@
 		}
 		
 		h1, h2, h3, h4 {
-			font-weight: 500;
 			margin: 0.5em 0;
 		}
 
@@ -214,7 +213,7 @@
 		th, td {
 			padding: 0.75em;
 			color: #999;
-			border-bottom: 1px solid #eee;
+			border-bottom: 1px solid #fafafa;
 		}
 		
 		th {
